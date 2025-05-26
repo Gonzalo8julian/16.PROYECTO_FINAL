@@ -6,8 +6,6 @@ Este proyecto analiza los resultados de las principales maratones del mundo, con
 
 Gracias a este análisis, se ha desarrollado un dashboard interactivo que permite explorar la participación por género, edad, nacionalidad, tiempos y nivel de élite, así como la cobertura de patrocinadores. Esto permite construir propuestas de patrocinio adaptadas al perfil de cada carrera.
 
-
-
 ## 🗂️ Estructura del Proyecto
 
 ├── data/
@@ -16,6 +14,7 @@ Gracias a este análisis, se ha desarrollado un dashboard interactivo que permit
 │       ├── resultados_boston_2024_completo.csv
 │       ├── resultados_chicago_2024_completo.csv
 │       └── resultados_london_2024_completo.csv
+
 
 ├── jupyters/
 │   ├── carga_datos.ipynb               # Carga y preview de los datos
@@ -26,14 +25,19 @@ Gracias a este análisis, se ha desarrollado un dashboard interactivo que permit
 │   ├── scrap_londonmarathon.ipynb      # Scraping Londres
 │   └── scrap_nycmarathon.ipynb         # Scraping Nueva York (pendiente)
 
+
 ├── Presentación/                        # Carpeta para presentación final (vacía o en progreso)
+
 
 ├── src/                                 # (Opcional) Scripts Python reutilizables
 │   └── (puede incluir funciones ETL, utils, etc.)
 
+
 ├── six_majors.pbix                      # Dashboard en Power BI
 
+
 ├── README.md                            # Este archivo
+
 
 ├── 1. DEFINICIÓN DEL PROYECTO Y ADQUISICIÓN DE DATOS.docx
 ├── 1. DEFINICIÓN DEL PROYECTO Y ADQUISICIÓN DE DATOS.pdf
@@ -41,6 +45,7 @@ Gracias a este análisis, se ha desarrollado un dashboard interactivo que permit
 
 ## 🛠️ Instalación y Requisitos
 Este proyecto se ha desarrollado con:
+
 	•	Python 3.9
 	•	Librerías:
 	•	Pandas
@@ -56,7 +61,7 @@ Este proyecto se ha desarrollado con:
 
 > Resumen de hallazgos:
 
-Género: Entre el 53% y el 65% de los corredores son hombres, según la maratón.
+	•	Género: Entre el 53% y el 65% de los corredores son hombres, según la maratón.
 	•	Edad: Mayor concentración entre los 30 y 45 años.
 	•	Internacionalidad: Berlín es la maratón con mayor variedad de nacionalidades.
 	•	Rendimiento:
